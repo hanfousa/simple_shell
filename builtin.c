@@ -26,7 +26,7 @@ int _myexit(info_t *info)
 		return (-2);
 	}
 	info->err_num = -1;
-	return (-2);
+return (-2);
 }
 
 /**
