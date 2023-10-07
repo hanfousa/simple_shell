@@ -38,7 +38,7 @@ extern char **environ;
 
 
 /**
- * struct liststr – a singly linked list
+ * struct liststr - singly linked list
  * @num: the number of field
  * @str: a string
  * @next: the points to the next node

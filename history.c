@@ -54,7 +54,7 @@ int write_history(info_t *info)
 }
 
 /**
- * read_history – it reads history from file
+ * read_history - reads history from file
  * @info: the parameter struct in
  *
  * Return: histcount on success, 0 otherwise
@@ -124,7 +124,7 @@ int build_history_list(info_t *info, char *buf, int linecount)
 }
 
 /**
- * renumber_history – renumbering the history linked list after changes
+ * renumber_history - renumbers the history linked list after changes
  * @info: Structure contains potential arguments. Used to maintain
  *
  * Return: the new histcount
